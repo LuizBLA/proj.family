@@ -1,0 +1,284 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: f3;
+  src: url(BebasNeue-Regular.ttf);
+}
+
+@font-face {
+  font-family: f2;
+  src: url(Roboto-Black.ttf);
+}
+@font-face {
+  font-family: f1;
+  src: url(Classyvogueregular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-family: f2;
+}
+
+header {
+  display: flex;
+  background-color: #ffdab9;
+  padding: 0;
+  position: fixed;
+  width: 100vw;
+  z-index: 2;
+}
+
+img.a1 {
+  width: 200px;
+  margin-left: -3vh;
+}
+
+input {
+  height: 15px;
+  font-family: f3;
+  padding: 7px;
+  margin-top: 45px;
+  background-color: #ffdab9;
+  border-radius: 4px;
+}
+
+body {
+  background-color: #f2ead0;
+}
+
+.própria {
+  margin-top: 300px;
+  max-width: 600px;
+  height: auto;
+  margin-left: 400px;
+  border-radius: 10px;
+  box-shadow: 7px 7px 6px #7e4a1e;
+}
+.h21 {
+  position: absolute;
+  margin-top: 30vh;
+  font-family: f1;
+  margin-left: 43.9vw;
+}
+
+.p1 {
+  margin-top: 100px;
+  max-width: 790px;
+  margin-left: 350px;
+  margin-right: 300px;
+  margin-bottom: 100px;
+  background-color: rgb(253, 197, 171);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+h4 {
+  margin-top: 38vh;
+  position: absolute;
+  margin-left: 92vh;
+  font-family: f2;
+}
+
+.m2 {
+  margin-left: 820px;
+  width: 500px;
+  height: auto;
+  margin-top: 300px;
+  border-radius: 10px;
+}
+
+.p2 {
+  position: absolute;
+  margin-top: 100px;
+  margin-right: 150px;
+  margin-left: 200px;
+  margin-bottom: 100px;
+  background-color: rgb(253, 197, 171);
+  padding: 10px;
+  border-radius: 5px;
+  font-family: f1;
+  font-size: xx-large;
+}
+
+.h22 {
+  position: absolute;
+  margin-left: 1000px;
+  margin-top: 200px;
+}
+
+.p3 {
+  border-radius: 10px;
+  font-size: x-large;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  padding: 50px;
+}
+.h3 {
+  margin-top: 30px;
+  font-size: xx-large;
+  text-align: center;
+  margin-left: 440px;
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+/* lorem */
+
+.m3 {
+  font-size: x-large;
+  width: 500px;
+  height: auto;
+  margin-top: 400px;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+
+.p4 {
+  position: absolute;
+  margin-top: 100px;
+  margin-right: 150px;
+  margin-left: 200px;
+  margin-bottom: 100px;
+  background-color: rgb(253, 197, 171);
+  padding: 10px;
+  border-radius: 5px;
+  font-family: f1;
+  font-size: xx-large;
+}
+
+.h23 {
+  margin-left: 170px;
+  margin-top: 200px;
+  position: absolute;
+  margin-top: 300px;
+}
+
+.p5 {
+  border-radius: 10px;
+  font-size: x-large;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  padding: 50px;
+}
+.h32 {
+  margin-top: 100px;
+  margin-left: 450px;
+
+  font-family: f1;
+  font-size: xx-large;
+  margin-right: 400px;
+  border-radius: 6px;
+  padding: 3px;
+}
+
+span {
+  font-size: large;
+
+  color: rgb(61, 61, 61);
+}
+
+h1 {
+  margin-top: 30px;
+  margin-left: 28vw;
+}
+
+.p2:hover {
+  padding: 60px;
+  transition: 8s;
+}
+
+.parallax {
+  background-image: url(maeeu.jpg);
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  background-attachment: fixed;
+  background-position-x: center;
+  height: 500px;
+  margin-top: 200px;
+}
+
+.div3 {
+  margin-top: 300px;
+  background-color: #f27b507e;
+  padding: 10px;
+  width: 90%;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+
+.parallax2 {
+  background-image: url(paieu.jpg);
+  background-position: fixed;
+  height: 550px;
+  margin-top: 200px;
+  box-shadow: 1px 5px 5px black;
+  background-attachment: fixed;
+}
+.p4:hover {
+  padding: 60px;
+  transition: 8s;
+}
+
+.div5 {
+  margin-top: 300px;
+  background-color: #f27b507e;
+  padding: 10px;
+  width: 90%;
+  margin-left: 50px;
+  border-radius: 10px;
+  margin-bottom: 300px;
+}
+
+.seta {
+  position: absolute;
+  height: 50px;
+  width: auto;
+  top: 190%;
+  left: 10%;
+}
+
+footer {
+  background-color: black;
+  color: bisque;
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 3%;
+}
+
+p.rede {
+  font-size: 200%;
+}
+
+img.mini {
+  height: 100px;
+  width: auto;
+  /* position: absolute; */
+  top: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.down p {
+  position: absolute;
+  margin-right: 99900px;
+  top: 99px;
+}
+
+.seta{
+bottom: 0;
+position: absolute;
+margin-top: 375%;
+
+}
